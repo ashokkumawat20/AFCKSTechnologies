@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity__location__details"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/bg_color"
+android:orientation="vertical"
+android:weightSum="1"
+
+tools:context="in.afckstechnologies.mail.afckstechnologies.Activity.Activity_Enter_Level_Courses">
+
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/coursesList"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_marginLeft="@dimen/spacing_medium"
+    android:layout_marginRight="@dimen/spacing_medium"
+    android:layout_marginTop="@dimen/spacing_small"
+    android:layout_weight=".9"
+    android:clipToPadding="false"
+    android:paddingTop="8dp"
+
+    />
+
+<Button
+    android:id="@+id/btnSubmit"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_gravity="center"
+    android:layout_marginBottom="10dp"
+    android:layout_weight=".1"
+    android:background="#556199"
+    android:padding="10dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:text="Submit"
+    android:visibility="gone"
+    android:textColor="@color/back_c"
+    android:textSize="18sp"
+    android:textStyle="bold" />
+</LinearLayout>

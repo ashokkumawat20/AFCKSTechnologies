@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/spacing_small"
+    android:descendantFocusability="beforeDescendants">
+
+    <LinearLayout
+        android:id="@+id/lead_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_background_selector"
+        android:descendantFocusability="afterDescendants"
+        android:orientation="vertical"
+
+        android:paddingBottom="@dimen/spacing_medium">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#556199"
+            android:orientation="horizontal"
+            android:padding="@dimen/spacing_small"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/view_company_q"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.6"
+                android:text="Code"
+                android:textColor="@color/back_c"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/location"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight=".2"
+                android:src="@drawable/location" />
+
+            <ImageView
+                android:id="@+id/Batchesicon"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight=".2"
+                android:src="@drawable/short_bacthes" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="horizontal"
+            android:padding="@dimen/spacing_small"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/view_Address"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.6"
+                android:background="@android:color/transparent"
+                android:text="AFCKS TECHNOLOGIES
+G25, 26, Shantikunj Building,
+(Opp to GPO, Besides Nucleus Mall, 500 Mtrs from Railway Station on Sadhu Vasvani Road)
+4 Sadhu Vasvani Road.
+Pune 01"
+                android:textColor="#666A6D"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

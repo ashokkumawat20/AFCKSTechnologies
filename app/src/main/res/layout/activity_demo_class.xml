@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity__new__updates"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".Activity.DemoClassActivity">
+    <!--..........................................-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_medium"
+        android:background="#223458"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/logoImg"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/spacing_medium"
+            android:layout_weight=".2"
+            android:background="@drawable/logo_afcks"
+            android:paddingBottom="@dimen/spacing_medium" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/spacing_medium"
+            android:layout_weight=".8"
+            android:gravity="left|center|center_horizontal"
+            android:paddingLeft="@dimen/spacing_medium"
+            android:text="Demo Class Booking"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />
+    </LinearLayout>
+    <!-- ********************************************************* -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_medium"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="@dimen/spacing_medium"
+                android:background="@drawable/custom_spinner_background"
+                android:orientation="horizontal"
+              >
+
+
+                <Spinner
+                    android:id="@+id/spnrType"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:popupBackground="@color/color_black"
+                    android:spinnerMode="dialog"
+                    android:textColor="@android:color/black" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_medium"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="@dimen/spacing_medium"
+                android:background="@drawable/custom_spinner_background"
+                android:orientation="horizontal"
+               >
+
+
+                <Spinner
+                    android:id="@+id/displayCourseName"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:popupBackground="@color/color_black"
+                    android:spinnerMode="dialog"
+                    android:textColor="@android:color/black" />
+
+
+            </LinearLayout>
+
+            <!-- ********************************************************* -->
+
+            <LinearLayout
+                android:id="@+id/layTrainerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_medium"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="@dimen/spacing_medium"
+                android:background="@drawable/custom_spinner_background"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+
+                <Spinner
+                    android:id="@+id/displayTrainerName"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:popupBackground="@color/color_black"
+                    android:spinnerMode="dialog"
+                    android:textColor="@android:color/black" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Register"
+                android:textAllCaps="false"></Button>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

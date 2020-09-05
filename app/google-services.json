@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "970534728963",
+    "firebase_url": "https://afckstechnologies-5d618.firebaseio.com",
+    "project_id": "afckstechnologies-5d618",
+    "storage_bucket": "afckstechnologies-5d618.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970534728963:android:f981b7504ad48339",
+        "android_client_info": {
+          "package_name": "in.afckstechnologies.mail.afckstechnologies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970534728963-o31icsjkm1o8f4o78edlfs8gfgo4t48p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.afckstechnologies.mail.afckstechnologies",
+            "certificate_hash": "8419dbe0aa33d2d698da0e28a97bd7f3d3e7ea02"
+          }
+        },
+        {
+          "client_id": "970534728963-94m9l3cpgrj1m1p715fre85uq9o8jc0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-0cqrn_P7G7rXvosX1YQexOA_d52p8hc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970534728963-94m9l3cpgrj1m1p715fre85uq9o8jc0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

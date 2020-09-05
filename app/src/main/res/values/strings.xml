@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AFCKS Students</string>
+    <string name="prompt">I am...</string>
+    <string name="title_activity__notification__details">Activity_Notification_Details</string>
+
+    <string name="course_name">Course Name</string>
+    <string name="start_date">Start date</string>
+    <string name="Status">Status</string>
+    <string name="location">Location</string>
+    <string name="Trainer">Trainer</string>
+    <string name="Timing">Timings</string>
+    <string name="Notes">Notes</string>
+    <string name="Fees">Fees</string>
+    <string name="Duration">Duration</string>
+    <string name="Frequency">Frequency</string>
+    <string name="Afcks">*AFCKS TECHNOLOGIES*</string>
+    <string name="Afcksnew">AFCKS TECHNOLOGIES</string>
+    <string name="Mobile">Mobile</string>
+    <string name="Mailid">Email</string>
+    <string name="Site">Site</string>
+    <string name="website"><u>www.afckstechnologies.in</u></string>
+    <string name="click"><u>Click for booking details</u></string>
+</resources>
